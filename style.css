@@ -1,0 +1,80 @@
+*, body{
+    margin: 0px;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 0px 0 30px;
+    color: #f56161;
+    
+}
+h4{
+    color: #293ae9;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 12px #c97cf9;
+    font-size: 25px;
+}
+form{
+    text-align: center;
+}
+
+.error{
+    color: red;
+    display: none;
+    margin: 5px 0;
+}
+
+.time-box-element{
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+}
+.time-box-element > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-wrapper{
+    background-color: #c97cf9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-frame, .end-frame{
+    margin: 15px 0;
+}
+
+#submitTimeFrames{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.main-content-wrapper{
+    background: wheat;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+}
+input#end-stamp-date, input#end-stamp-time{
+    padding: 8px;
+}
+.cnt-access{
+    text-align: center;
+}
+.end-frame label{
+    display: block;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+.start-frame{
+    visibility: hidden;
+}
+#end-stamp-date, #end-stamp-time{
+    cursor: pointer;
+}

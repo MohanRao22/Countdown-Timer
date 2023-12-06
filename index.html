@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <!-- Custom CountDown Timer Using Vanilla JS -->
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+        <div class="main-content-wrapper">
+            <h1>Count Down Timer</h1>
+            <form>
+                <div class="start-frame">
+                    <label>Enter Start</label>
+                    <input type="date" id="start-stamp-date" value=""  disabled/>
+                    <input type="time" id="start-stamp-time"  disabled />
+                </div>
+                <div class="end-frame">
+                    <label>Set Ur Date and Time</label>
+                    <input type="date" id="end-stamp-date" />
+                    <input type="time" id="end-stamp-time"  />
+                </div>
+                <div class="cnt-access">
+                <input type="submit"  id="submitTimeFrames" /> 
+                <label class="error">Please fill all fields..</label>
+                </div>
+            </form>
+          
+
+            <div class="timer-container">
+                <div class="time-box-element">
+                    <div class="years-box">
+                        <h4 id="ins_yr">00</h4>
+                        <span>Years</span>
+                    </div>
+                    <div class="days-box">
+                        <h4 id="ins_days">00</h4>
+                        <span>Days</span>
+                    </div>
+                    <div class="hr-box">
+                        <h4 id="ins_hr">00</h4>
+                        <span>Hours</span>
+                    </div>
+                    <div class="min-box">
+                        <h4 id="ins_min">00</h4>
+                        <span>Minutes</span>
+                    </div>
+                    <div class="seconds-box">
+                        <h4 id="ins_seconds">00</h4>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of main wrapper -->
+
+    <!-- End of Custom CountDown Timer Using Vanilla JS -->
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
